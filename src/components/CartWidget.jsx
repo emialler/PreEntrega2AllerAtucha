@@ -1,6 +1,13 @@
+import { Badge } from "@mui/material"
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+
 const CartWidget = () => {
   return (
-    <div>CartWidget</div>
+    <>
+      <Badge badgeContent={2} color="primary">
+        <ShoppingCartIcon/>
+      </Badge>
+    </>
   )
 }
 

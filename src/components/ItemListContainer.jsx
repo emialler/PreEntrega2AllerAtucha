@@ -1,6 +1,6 @@
-const ItemListContainer = () => {
+const ItemListContainer = ({ greeting }) => {
   return (
-    <div>Bienvenido al e-commerce de Casa Farina!</div>
+    <div id="greeting">{greeting}</div>
   )
 }
 
