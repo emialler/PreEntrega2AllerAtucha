@@ -1,25 +1,25 @@
-#logo {
+  #logo {
     height: 100px;
     width: auto;
   }
   
-  #navBar ul {
+  #navBar {
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style: none;
   }
 
-  #navBar ul li:hover {
-    transform: scale(1.2);
-    transition: 0.2s;
-  }
-
-  #navBar a {
+  .navBar__links {
     font-size: 20px;
     font-weight: 500;
     color: #737677;
     text-decoration: none;
+  }
+
+  .navBar__links:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
   }
 
   #appBar {
@@ -27,10 +27,38 @@
     color: #0095da;
   }
 
-  #greeting {
-    margin-top: 300px;
+  #itemListContainer {
+    margin-top: 200px;
+    color: #0095da;
     display: flex;
-    justify-content: center;
-    color:#0095da;
-    font-size: 30px;
+    justify-content: space-around;
   }
+
+  #card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  #cardContainer {
+    margin: 30px 20px 100px 20px;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 10px 5px #b2b8e444;
+    display: flex;
+  }
+
+  #itemCount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container {
+    margin-top: 200px;
+  }
+
+  .container p {
+    text-align: center;
+  }
+
